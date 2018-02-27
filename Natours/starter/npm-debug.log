@@ -1,0 +1,35 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'run',
+1 verbose cli   'compile:sass' ]
+2 info using npm@4.1.2
+3 info using node@v7.6.0
+4 verbose run-script [ 'precompile:sass', 'compile:sass', 'postcompile:sass' ]
+5 info lifecycle asifshaik@1.1.1~precompile:sass: asifshaik@1.1.1
+6 silly lifecycle asifshaik@1.1.1~precompile:sass: no script for precompile:sass, continuing
+7 info lifecycle asifshaik@1.1.1~compile:sass: asifshaik@1.1.1
+8 verbose lifecycle asifshaik@1.1.1~compile:sass: unsafe-perm in lifecycle true
+9 verbose lifecycle asifshaik@1.1.1~compile:sass: PATH: C:\Program Files\nodejs\node_modules\npm\bin\node-gyp-bin;C:\CSS\advanced-css-course-master\Natours\starter\node_modules\.bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Git\cmd;C:\Program Files\TortoiseGit\bin;C:\Windows\CCM;C:\Windows\CCM;C:\Program Files\nodejs\;C:\Program Files (x86)\Brackets\command;C:\Users\asifshaik\AppData\Roaming\npm;C:\Users\asifshaik\AppData\Roaming\npm\node_modules\angular-cli\bin;C:\new Angular\oshop\node_modules\.bin;C:\Users\asifshaik\AppData\Roaming\npm\node_modules;C:\Users\asifshaik\AppData\Roaming\npm\node_modules\firebase;C:\new Angular\oshop\node_modules\.bin;=C:\Users\asifshaik\AppData\Roaming\npm\node_modules\webpack\bin;C:\Users\asifshaik\AppData\Roaming\npm;C:\Users\asifshaik\AppData\Roaming\npm\node_modules\angular-cli\bin;C:\Users\asifshaik\AppData\Roaming\npm\node_modules;C:\Users\asifshaik\AppData\Roaming\npm\node_modules\firebase;C:\new Angular\oshop\node_modules\.bin;
+10 verbose lifecycle asifshaik@1.1.1~compile:sass: CWD: C:\CSS\advanced-css-course-master\Natours\starter
+11 silly lifecycle asifshaik@1.1.1~compile:sass: Args: [ '/d /s /c', 'node-sass ./sass/main.scss ./css/style.css -w' ]
+12 verbose stack Error: kill ENOSYS
+12 verbose stack     at exports._errnoException (util.js:1028:11)
+12 verbose stack     at process.kill (internal/process.js:173:13)
+12 verbose stack     at process.listener (C:\Program Files\nodejs\node_modules\npm\node_modules\npmlog\node_modules\gauge\node_modules\signal-exit\index.js:95:15)
+12 verbose stack     at emitNone (events.js:86:13)
+12 verbose stack     at process.emit (events.js:186:7)
+12 verbose stack     at processEmit (C:\Program Files\nodejs\node_modules\npm\node_modules\npmlog\node_modules\gauge\node_modules\signal-exit\index.js:155:32)
+12 verbose stack     at Signal.wrap.onsignal (internal/process.js:200:44)
+13 verbose cwd C:\CSS\advanced-css-course-master\Natours\starter
+14 error Windows_NT 6.1.7601
+15 error argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "run" "compile:sass"
+16 error node v7.6.0
+17 error npm  v4.1.2
+18 error code ENOSYS
+19 error errno ENOSYS
+20 error syscall kill
+21 error kill ENOSYS
+22 error If you need help, you may report this error at:
+22 error     <https://github.com/npm/npm/issues>
+23 verbose exit [ 1, true ]
